@@ -11,6 +11,8 @@ Instructions
 2. Enter strikes & spreads 
 3. Press ^c when finished to calculate
 
+Associated blog post: https://cleven.dev/cli-tool-calculating-early-assignment-risk/
+
 OR
 
 1. Create file 'token' containing API token on a single line
