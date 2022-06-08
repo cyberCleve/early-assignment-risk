@@ -16,11 +16,11 @@ class Portfolio:
         borrow = sum(map(lambda x: x["strike"] * x["qty"] * 100, self.spreads))
 
         # There are considered to be 360 days in a year while calculating margin interest
-        interest = (((borrow * self.rate) / 360) * 4)
-        print(round(interest, 2))
+        interest = ((borrow * self.rate) / 360) * 4
+        print("\n", round(interest, 2))
 
 
-if __name__ == 'main':
+if __name__ == "__main__":
     portfolio = Portfolio(rate=0.085)
     print("Enter any number of spreads. Enter ^c when finished.")
     while True:

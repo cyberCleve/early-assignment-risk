@@ -1,6 +1,10 @@
 # early-assignment-risk
 CLI tool for quickly calculating early assignment risk
 
+Disclaimer
+
+This is not investment advice. I take no responsibility for what you do with this script. Any references to trademarked names or the names of specific financial institutions should not be considered an endorsement. 
+
 Instructions
 
 1. Run portfolio.py directly to invoke CLI
@@ -15,4 +19,5 @@ OR
 
 
 Limitations
+
 Does not correctly handle broken hedges or naked short puts
